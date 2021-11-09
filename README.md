@@ -4,8 +4,12 @@ In this project we classify whether images, in the given dataset, contain either
 
 ## Usage
 
-- Run the desired Jupyter notebook in the Code folder
-- Both the notebooks have information for dataset extraction and directory structure looks like as follows :
+- Run the desired Jupyter notebook or the Python script in the Code folder
+
+  ```
+  python3 model_no_gpu.py
+  ```
+- Both the notebooks as well as the report contain the dataset and the directory structure looks like as follows :
 
         dogs-vs-cats
           test
@@ -18,8 +22,10 @@ In this project we classify whether images, in the given dataset, contain either
 ## Dependencies:
 
 - Python 3.X
-- For model_no_gpu
+- For model_no_gpu notebook
   - PyTorch
-- For model_with_gpu
+- For model_with_gpu notebook
   - TensorFlow 2
+- For model_no_gpu.py
+  - TFLearn
 
