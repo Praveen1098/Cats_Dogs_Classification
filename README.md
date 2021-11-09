@@ -1,43 +1,25 @@
-# CatsvsDogs-Classification
+# Cats vs Dogs Image Classification
 
-Project 6 Submission - ENPM673 - Perception for Autonomous Robotics
+In this project we classify whether images, in the given dataset, contain either a dog or a cat
 
-Instructions for running the codes:
+## Usage
 
-Code 1:Download the data set,unzip and give the path as in your local computer.
+- Run the desired Jupyter notebook in the Code folder
+- Both the notebooks have information for dataset extraction and directory structure looks like as follows :
 
-Code 2:We have reorganized the dataset which we are providing you via a sharable link.
+        dogs-vs-cats
+          test
+            test
+                <contains all the training images (25000 images)>
+          train
+            train
+                <contains all the testing images (12500 images)>	
 
-Directories: Make sure the data set is in the folder:
+## Dependencies:
 
-The directory structure looks like as follows :
-
-    dogs-vs-cats
-      test
-        test
-          <contains all the training images (25000 images)>
-      train
-        train
-          <contains all the testing images (12500 images)>	
-      
-Software used:
-
-    Python 3.6
-
-Dependencies:
-
-Code 1:
-tensorflow 1.14
-
-tflearn 
-
-cv2
-
-csv
-
-mathplotlib as plt
-
-
-Code 2:
-tensorflow 2
+- Python 3.X
+- For model_no_gpu
+  - PyTorch
+- For model_with_gpu
+  - TensorFlow 2
 
